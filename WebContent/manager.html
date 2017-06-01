@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>后台管理</title>
+	</head>
+
+	<body>
+		<!--  上传Banner -->
+		<div>
+			<fieldset>
+				<legend>文件快捷上传</legend>
+				<form action="upload.do" enctype="multipart/form-data" method="post" lpformnum="1" target="nm_iframe">
+					<input type="file" name="fileUpload">
+					<br>
+					<input type="submit" class="btn btn-primary" onclick="return confirm('确定要上传吗？')" value="上传">
+				</form>
+			</fieldset>
+			<p>选择文件</p>
+			<input type="file" name="" id="file_message">
+			<input type="submit" class="btn btn-primary" onclick="return confirm('确定要上传吗？')" value="上传">
+		</div>
+
+		<!-- 查看所有Banner -->
+	</body>
+</html>

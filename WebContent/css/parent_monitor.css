@@ -1,0 +1,78 @@
+.main {
+	width: 100%;
+}
+
+
+/* 视频顶部 */
+
+.monitor_top {
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	background: #ff7372;
+	border-bottom: 1px #ff7372 solid;
+	padding-top: 30px;
+	position: relative;
+}
+
+.monitor_top p {
+	color: #333;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.monitor_top img {
+	position: absolute;
+	width: 23px;
+	bottom: 15px;
+	left: 10px;
+}
+
+/* 监控中部 */
+
+.monitor_main {
+	width: 100%;
+	padding: 15px;
+}
+
+.monitor_item {
+	width: 100%;
+	position: relative;
+}
+
+.monitor_item>img {
+	width: 100%;
+}
+
+.monitor_main_top {
+	height: 40px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.monitor_main_top p {
+	line-height: 40px;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+}
+
+/* 介绍 */
+.monitor_introduce{
+	margin-top: 20px;
+	width:100%;
+	background: #333;
+	padding: 10px;
+}
+.monitor_introduce p{
+	color: #fff;
+	font-size: 17px;
+}
+.monitor_introduce p:nth-child(2){
+	color: #ddd;
+	font-size: 14px;
+}

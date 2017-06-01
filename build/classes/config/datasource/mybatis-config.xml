@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="Admin" type="com.ikould.blog.entity.Admin" />
+		<typeAlias alias="Article" type="com.ikould.blog.entity.Article" />
+		<typeAlias alias="ArticleCategroy" type="com.ikould.blog.entity.ArticleCategroy" />
+		<typeAlias alias="Master" type="com.ikould.blog.entity.Master" />
+		<typeAlias alias="Message" type="com.ikould.blog.entity.Message" />
+		<typeAlias alias="Say" type="com.ikould.blog.entity.Say" />
+		<typeAlias alias="User" type="com.ikould.blog.entity.User" />
+		<typeAlias alias="Web" type="com.ikould.blog.entity.Web" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="config/entity/Admin.xml" />
+		<mapper resource="config/entity/Article.xml" />
+		<mapper resource="config/entity/ArticleCategroy.xml" />
+		<mapper resource="config/entity/Master.xml" />
+		<mapper resource="config/entity/Message.xml" />
+		<mapper resource="config/entity/Say.xml" />
+		<mapper resource="config/entity/User.xml" />
+		<mapper resource="config/entity/Web.xml" />
+	</mappers>
+</configuration>

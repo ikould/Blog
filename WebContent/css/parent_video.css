@@ -1,0 +1,158 @@
+.main {
+	width: 100%;
+}
+
+/* 字体 */
+@font-face {
+	font-family: "miniwawa";
+	src: url(../font/miniwawa.ttf);
+}
+
+/* 视频顶部 */
+
+.video_top {
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px #ff7372 solid;
+	background: #ff7372;
+	padding-top: 30px;
+}
+
+.video_top>p {
+	float: left;
+	font-size: 14px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+	color: #ccc;
+	width: 50%;
+}
+
+.video_top>p:first-child {
+	border-right: 1px #fff solid;
+}
+
+.video_choose {
+	color: #333 !important;
+}
+
+
+/* 视频中部  所有视频*/
+
+.video_middle_all {
+	width: 100%;
+	padding: 15px;
+}
+
+.time_choose {
+	margin: 0px auto 10px;
+	width: 100%;
+}
+
+.time_choose p {
+	text-align: center;
+	padding: 7px;
+	width: 95px;
+	background: url(../img/ic_video_time_bg.png);
+}
+
+.time_choose p span {
+	font-size: 15px;
+	color: #ff7372;
+	font-weight: bold;
+	float: left;
+}
+
+.time_choose p img {
+	width: 17px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.video_main {
+	width: 100%;
+}
+
+.video_main ul li {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.video_main ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.video_pic {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.video_pic img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.video_pic img:first-child {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.video_pic img:nth-child(2) {
+	width: 40%;
+}
+
+.video_main ul li>p {
+	font-size: 13px;
+	padding: 5px 0;
+	color: #888;
+	font-weight: bold;
+}
+
+
+/* 视频中部   已付费视频*/
+
+.video_middle_paid {
+	width: 100%;
+	padding: 15px;
+}
+
+.video_middle_paid ul li {
+	margin: 3px 0;
+	position: relative;
+	width: 100%;
+}
+.video_middle_paid ul li>img{
+	width: 100%;
+}
+ .video_item_text {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+ .video_item_text p{
+ 	width: 100%;
+ 	color: white;
+ 	font-family: miniwawa;
+ 	margin: auto;
+ }
+
+ .video_item_text p:first-child{
+ 	font-size: 20px;
+ }
